@@ -1,10 +1,4 @@
-/*>>>>>>>>>>>>>>>>>>> Atividade 1 (5,0) <<<<<<<<<<<<<<<<<<<
 
-Criar um sistema que receba os dados do usuário (janela) para sinalizar se ele pode se cadastrar no sistema do governo brasileiro. Os seguintes critérios devem ser adotados:
-
-(1,5) O usuário deve ser brasileiro, do sexo masculino e ter entre 18 e 65 anos.
-(1,5) O usuário deve ser brasileiro, do sexo feminino e ter entre 18 e 60 anos.
-(2,0) O usuário, caso não seja brasileiro, deve morar no Brasil a mais de 3 anos e ter entre 21 e 30 anos.*/
 
 let nacionalidade;
 let sexo;
