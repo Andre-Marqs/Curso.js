@@ -2,18 +2,20 @@
 
 
 let tentativas = []
+let numerosDastentativas = []
 let numeroAleatorio
 let addTentativas
 
 
 numeroAleatorio = Math.floor(Math.random() * 100) 
-
+alert(numeroAleatorio)
 
 while(addTentativas!=numeroAleatorio){
 
 addTentativas = Number(prompt("Digite o numero"))
 tentativas.push(addTentativas)
+numerosDastentativas.push(addTentativas)
 
 
 
-}alert(`Paranbens você acertou o numero e apenas com ${tentativas.length} tentativas.`)
+}alert(`Paranbens você acertou o numero e apenas com ${tentativas.length} tentativas e os numeros que você tentou foram ${numerosDastentativas}`)
